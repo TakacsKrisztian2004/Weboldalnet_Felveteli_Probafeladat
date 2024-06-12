@@ -1,0 +1,83 @@
+nav {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #F5943A;
+    width: 100%;
+}
+
+.container {
+    background-color: #F8F9FA;
+}
+
+.main-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap if needed */
+}
+
+.text-content {
+    flex: 0 0 60%; /* Take up 60% of the available space */
+    max-width: 50%; /* Set maximum width to prevent stretching */
+}
+
+.content-image {
+    flex: 0 0 40%; /* Take up 40% of the available space */
+    max-width: 50%; /* Set maximum width to prevent stretching */
+    border-radius: 25px;
+    opacity: 1;
+}
+
+h1 {
+    color: #072739;
+}
+
+.desktop-logo {
+    width: 111px;
+    height: 64px;
+    opacity: 1;
+}
+
+.navbar-items {
+    color: #072739;
+    height: 18px;
+    font: normal normal medium 15px/18px Figtree;
+    letter-spacing: 0px;
+    color: #808185;
+    opacity: 1;
+    text-align: left;
+}
+
+.last-navbar-item {
+    height: 18px;
+    font: normal normal medium 15px/18px Figtree;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #072739;
+    background: #D9EBF6;
+    border-radius: 18px;
+    opacity: 1;
+}
+
+.last-navbar-item .nav-link {
+    padding: 5px 10px;
+    line-height: 18px;
+    display: inline-block;
+}
+
+p {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-figtree);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-808185);
+    text-align: left;
+    font: normal normal normal 18px/27px Figtree;
+    letter-spacing: 0px;
+    color: #808185;
+    opacity: 1;
+}
+
+button {
+    align-self: flex-start;
+}

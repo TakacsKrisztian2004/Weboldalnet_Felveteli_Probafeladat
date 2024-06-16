@@ -22,21 +22,16 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    /* Allow items to wrap if needed */
 }
 
 .first-text-content {
     flex: 0 0 60%;
-    /* Take up 60% of the available space */
     max-width: 50%;
-    /* Set maximum width to prevent stretching */
 }
 
 .content-image {
     flex: 0 0 40%;
-    /* Take up 40% of the available space */
     max-width: 50%;
-    /* Set maximum width to prevent stretching */
     border-radius: 25px;
     opacity: 1;
 }
@@ -107,7 +102,6 @@ p {
     border-radius: 18px;
     opacity: 1;
     border: 10px solid #F5943A;
-    /* 5px border with the same color as the background */
     padding: 5px 10px;
     line-height: 18px;
     display: inline-block;
@@ -121,7 +115,6 @@ p {
     justify-content: center;
     align-items: center;
     padding-top: 3%;
-    /* Adjust the value to move the content down */
 }
 
 .orange-link {
@@ -205,4 +198,175 @@ p {
     justify-content: center;
     align-items: center;
     padding-top: 3%;
+}
+
+.features {
+    list-style-image: url('../images/tick.svg');
+}
+
+.AC-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin-right: 3%;
+    list-style-type: none;
+}
+
+.AC-card {
+    position: relative;
+    top: 100px;
+    width: 30%;
+    height: 50%;
+    justify-content: center;
+    text-align: left;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5%;
+}
+
+.AC-card-image {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    border-radius: 20px;
+    top: -23%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10%;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.price-container p {
+    margin: 0 0 0 5px;
+}
+
+.AC-orange-button {
+    color: white;
+    background: #F5943A;
+    border-radius: 25px;
+    opacity: 1;
+    border: 10px solid #F5943A;
+    padding: 5px 10px;
+    line-height: 18px;
+    display: inline-block;
+    margin: 5%;
+}
+
+.previous-button,
+.next-button {
+    border: none;
+    background-color: transparent;
+}
+
+.sixth-main-content {
+    justify-content: center;
+    padding-top: 8%;
+    margin-top: 12%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.help-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2%;
+    margin-right: 3%;
+    list-style-type: none;
+    margin-top: 5%;
+}
+
+.help-card {
+    position: relative;
+    width: 410px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5%;
+    padding: 20px;
+    color: white;
+    overflow: hidden;
+}
+
+.help-card::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(0, 0, 255, 0), rgb(16, 44, 60));
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+}
+
+.help-card-title,
+.help-card-description {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.seventh-main-content {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+}
+
+.seventh-inner-content {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2%;
+}
+
+.family-house-card-text {
+    background-color: #072739;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    flex: 1;
+    text-align: left;
+}
+
+.family-house-card-image-container {
+    justify-content: center;
+    flex: 3;
+    align-items: center;
+    border-radius: 20px; /* Add border-radius to match the card */
+}
+
+.family-house-card-image {
+    justify-content: center;
+    border-radius: 20px; /* Add border-radius to match the card */
+}
+
+.lightblue-button {
+    color: #072739;
+    background: rgb(224, 236, 244);
+    border-radius: 20px;
+    align-self: flex-start; /* Align button to the start of the column */
 }

@@ -1,5 +1,5 @@
 nav {
-    border-bottom: 1px solid #F5943A;
+    border-bottom: 0.063rem solid #F5943A;
     width: 100%;
 }
 
@@ -36,7 +36,7 @@ nav {
 .content-image {
     flex: 0 0 40%;
     max-width: 50%;
-    border-radius: 25px;
+    border-radius: 5%;
     opacity: 1;
 }
 
@@ -44,24 +44,29 @@ h1 {
     color: #072739;
 }
 
+.main-title {
+    font-size: 4rem;
+}
+
+.main-title-paragraph {
+    padding-right: 30%;
+}
+
 h6 {
-    letter-spacing: 0px;
     color: #072739;
     text-transform: uppercase;
     opacity: 1;
 }
 
 .desktop-logo {
-    width: 111px;
-    height: 64px;
+    width: 6.9375rem;
+    height: 4rem;
     opacity: 1;
 }
 
 .navbar-items {
     color: #072739;
     height: 18px;
-    font: normal normal medium 15px/18px Figtree;
-    letter-spacing: 0px;
     color: #808185;
     opacity: 1;
     text-align: left;
@@ -96,7 +101,6 @@ h6 {
 
 p {
     text-align: left;
-    font: normal normal normal 18px/27px Figtree;
     letter-spacing: 0px;
     color: #808185;
     opacity: 1;
@@ -732,7 +736,6 @@ p {
 
 label {
     text-align: left;
-    font: normal normal normal 18px/27px Figtree;
     letter-spacing: 0px;
     color: #808185;
     opacity: 1;
@@ -784,6 +787,10 @@ label {
     margin-left: 13%;
 }
 
+.footer-links a:hover {
+    text-decoration: none;
+}
+
 .footer-links h6 {
     color: white;
 }
@@ -824,4 +831,68 @@ label {
 .social-links a:hover {
     text-decoration: none;
     color: rgb(191, 220, 238);
+}
+
+.contact-links {
+    margin-top: 1%;
+    list-style-type: none;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    width: 50%;
+    margin-left: 25%;
+    padding-right: 13%;
+}
+
+.contact-links a:hover {
+    color: rgb(11, 64, 93);
+    text-decoration: none;
+}
+
+.contact-links li {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    white-space: nowrap;
+    gap: 0.5rem;
+}
+
+.contact-links span {
+    color: #072739;
+}
+
+.footer-other {
+    margin-top: 1%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    width: 50%;
+    margin-left: 23.7%;
+    white-space: nowrap;
+}
+
+.footer-other span {
+    color: white;
+}
+
+.footer-other-link:hover {
+    color: rgb(191, 220, 238);
+    cursor: pointer;
+}
+
+.footer-other p {
+    color: white;
+}
+
+.footer-end {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.footer-end span{
+    color: white;
 }
